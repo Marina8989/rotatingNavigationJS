@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+    background: rgb(85, 85, 85);
+}
+.container{
+    padding: 5rem 15rem;
+    background: white;
+    height: 100vh;
+}
+.post h1{
+    margin-bottom: 1rem;
+}
+.post p{
+    margin: 1rem 0 3rem 0;
+}
+small{
+    font-style: italic;
+}
