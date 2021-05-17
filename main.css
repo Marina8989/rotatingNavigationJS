@@ -13,6 +13,25 @@ body{
     padding: 5rem 15rem;
     background: white;
     height: 100vh;
+    position: relative;
+   transform-origin: top;
+}
+.circle-btn button{
+    background: tomato;
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    top: -4rem;
+    left: -6rem;
+    border-radius: 50%;
+}
+button{
+   color: black;
+   position: relative;
+   font-size: 1.6rem;
+   border: none;
+   background: transparent;
+
 }
 .post h1{
     margin-bottom: 1rem;
@@ -22,4 +41,10 @@ body{
 }
 small{
     font-style: italic;
+}
+
+.show-nav{
+    transform: rotate(-20deg);
+    top: -10rem;
+    transition:transform 2s ease;
 }
