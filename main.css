@@ -8,13 +8,15 @@ body{
     width: 100vw;
     overflow-x: none;
     background: rgb(85, 85, 85);
+    position: relative;
 }
 .container{
     padding: 5rem 15rem;
     background: white;
     height: 100vh;
     position: relative;
-   transform-origin: top;
+    transform-origin: top left;
+    z-index: 2;
 }
 .circle-btn button{
     background: tomato;
@@ -45,6 +47,20 @@ small{
 
 .show-nav{
     transform: rotate(-20deg);
-    top: -10rem;
+    /* top: -10rem; */
     transition:transform 2s ease;
+}
+
+.navigation {
+   position: absolute;
+   bottom: 4rem;
+   left: 1rem;
+}
+.navigation ul li{
+    list-style: none;
+    margin: 1.5rem 0;
+}
+.navigation ul li i{
+    color: tomato;
+    
 }
